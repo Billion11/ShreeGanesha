@@ -1,0 +1,254 @@
+body {
+    background-color:aliceblue;
+    background: linear-gradient(141deg, white 0%, #E0B0FF 25%, beige 75%);
+    position: static;
+    border: #222 solid 2px;
+    
+  }
+  #myDiv{
+    padding: 0%;
+    align-content: center;
+    text-align: center;
+    width:20%;
+    height:auto;
+    background-color:transparent;
+    background-image: url("outfit.gif");
+    color:darkred;
+    animation: mymove 5s infinite;
+    position: static;
+    
+  }
+  @keyframes mymove{
+    20% {top: 0px; right:50%; width: 200px;}
+    25%  {top: 0px; left: 70%; background:transparent;}
+    90%  {top: 0px; right: 400px; background:transparent;}
+   
+    
+  }
+  #third{
+   
+   text-align: center;
+    box-sizing: border-box;
+    border-top: gray 0.2rem solid;
+    border-bottom: gray 0.2rem solid;
+    justify-content: center;
+    background-size:auto;
+    background-color: transparent;
+    width: 100%;
+    height: 70%;
+    color:black;
+    font-weight: 200;
+    font-style: normal;
+  }
+ #note{
+  
+ }
+ /* h1 {
+        
+    border-color: black;
+    font-weight: 300;
+    font-size:x-large;
+    position:static;
+    background-color:transparent;
+    background-image: url("");
+    text-align: center; 
+    font-family:'Trebuchet MS';
+    font-style:initial;
+    height:"2%";
+   
+  }*/
+  p {
+    color: #4169E1;
+    font-size: 16px;
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  h2{
+    background-color:#BC8F8F;
+    font-size: small;
+  }
+  *{box-sizing: border-box;
+    
+  }
+  #outfitoftheday{
+    margin-top: 0.5%;
+    position:static;
+    scroll-snap-align:inherit;
+  }
+  #second{
+    background-color:antiquewhite;
+  }
+  h3{
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin :40px;
+    text-align: center;
+
+  }
+  h6{
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position:initial;
+    text-align: center;
+    color:aliceblue;
+    font-size: medium;
+    
+  }
+  h4{
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    margin:auto;
+    opacity: 1;
+    font-stretch:wider;
+    color:black
+    
+  }
+  h5{
+    font-size: medium;
+  }
+
+
+  .flex-container>div{
+    background-color: transparent;
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    line-height: 15px;
+    
+    
+  }
+
+  .flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color:transparent;
+  }
+  .flex-container2>div{
+    background-color: #f1f1f1;
+    width: 75%;
+    margin: 30px;
+    text-align: center;
+    line-height:normal;
+    font-size: 30px;
+    
+  }
+
+  .flex-container2{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:row-reverse;
+    background-color:transparent;
+    justify-content: center;
+    border-color:blanchedalmond;
+    
+  }
+
+  /* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 20%;
+  width: auto;
+  padding: 30px;
+  margin-top: -50px;
+  color: gray;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: gray;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color:lightcyan;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float:left ;
+  width: 14.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo{
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+  
+}
+
+#six{
+  text-align: center;
+  box-sizing: border-box;
+  border-top: gray 0.2rem solid;
+  border-bottom: gray 0.2rem solid;
+  justify-content: center;
+  background-size:auto;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+h{
+  vertical-align: middle;
+}
+e{
+  vertical-align: middle;
+}
